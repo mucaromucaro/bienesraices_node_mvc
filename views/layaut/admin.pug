@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Biene Raices #{pagina}
+          //-  esta la ruta para poder aplicar los estilos 
+        link(rel="stylesheet", href="/css/app.css")
+        //- este block styles tiene todos los estilos para que mapa sea bn 
+        block styles 
+       
+    body.min-h-screen.bg-gray-50
+    
+        include include/header-admin
+    
+        main(class="mx-auto container mt-10 px-2")
+         block  contenido
+    //- este block scripts tiene todos los estilos para que mapa sea bn     
+    block scripts 
