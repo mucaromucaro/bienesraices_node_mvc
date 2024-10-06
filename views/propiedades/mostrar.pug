@@ -65,7 +65,7 @@ block contenido
                                   input(type="hidden" name="_csrf" value= csrfToken)
                             
                                   div(class="space-y-5")
-                                    label(for="mensaje") Hola si esta intezado deja tu numero y un mensaje
+                                    label(for="mensaje") Hola si esta interezado deja tu numero y un mensaje
                                     textarea(id="mensaje" name="mensaje" class="w-full px-2 py-2 border border-gray-300 rounded-lg shadow placeholder-gray-400" placeholder="Coloca tu mensaje aquí")=value= usuario? usuario.mensaje : "" 
 
                                     input(type="submit" value="Enviar Mensaje" class="bg-indigo-600 text-white font-bold uppercase text-sm w-full p-2 cursor-pointer"  )

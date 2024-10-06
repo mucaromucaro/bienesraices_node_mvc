@@ -6,7 +6,7 @@ const insertarUsuario = [
         nombre: "andres",
         email: "andresmurillo74@gmail.com",
         confirmado:1,
-        password:bcrypt.hashSync("1234567",10) //aqui estamos encrictando el password ejmplo: bcrypt.hashSync("passwod que queramos la ponemos alli entre comillas",10)
+        password:bcrypt.hashSync("1234567",10) //aqui estamos encrictando el password ejmplo: bcrypt.hashSync("el passwod que queramos la ponemos alli entre comillas",10)
     }
  
 ]
