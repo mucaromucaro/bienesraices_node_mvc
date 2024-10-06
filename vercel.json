@@ -6,7 +6,7 @@
       ],
     "routes": [
         { "source": "/(.*)", 
-          "dest": "/" 
+          "dest": "/api" 
           }
           ]
           
